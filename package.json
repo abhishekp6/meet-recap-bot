@@ -1,0 +1,20 @@
+{
+  "name": "meet-recap-bot",
+  "version": "1.0.0",
+  "description": "Online meeting summarizer",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsc && node dist/server.js"
+  },
+  "author": "Abhishek Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "10.8.2",
+    "selenium-webdriver": "^4.27.0",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/selenium-webdriver": "^4.1.27"
+  }
+}
